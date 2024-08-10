@@ -8,6 +8,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## `0.8.7` - August 10th, 2024
+
+### Added
+
+- Added missing vector methods ([#228])
+- Added a way to optionally specify compression level for `serde.compress` ([#224])
+
+### Changed
+
+- Improved documentation for the serde library
+- Updated to Luau version `0.629`
+
+### Fixed
+
+- Fixed `fs.readDir` inconsistency on Windows with trailing `/`
+
+[#228]: https://github.com/lune-org/lune/pull/228
+[#224]: https://github.com/lune-org/lune/pull/224
+
+
 ## `0.8.6` - June 23rd, 2024
 
 ### Added
